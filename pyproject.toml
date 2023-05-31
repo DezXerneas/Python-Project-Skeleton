@@ -1,0 +1,31 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Sarthak-Bhagat", email = "sarth.bhagat@gmail.com"},
+]
+dependencies = [
+    "pre-commit>=3.3.2",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "django"
+combine_as_imports = true
+include_trailing_comma = true
+line_length = 120
+
+[tool.djlint]
+profile="django"
+ignore = "H031"
+
+[tool.ruff]
+line-length = 120
