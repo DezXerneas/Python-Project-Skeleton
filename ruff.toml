@@ -1,4 +1,4 @@
-extra-select = ["F", "E", "W", "C90", "I", "N", "UP", "ANN", "ASYNC", "S", "BLE", "FBT", "B", "A", "COM", "C4", "DTZ", "T10", "DJ", "EM", "FA", "ISC", "ICN", "G", "INP", "PIE", "T20", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SIM", "TID", "TCH", "INT", "ARG", "PTH", "TD", "PD", "PGH", "PL", "TRY", "FLY", "NPY", "RUF"]
+extend-select = ["F", "E", "W", "C90", "I", "N", "UP", "ANN", "ASYNC", "S", "BLE", "FBT", "B", "A", "COM", "C4", "DTZ", "T10", "DJ", "EM", "FA", "ISC", "ICN", "G", "INP", "PIE", "T20", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SIM", "TID", "TCH", "INT", "ARG", "PTH", "TD", "PD", "PGH", "PL", "TRY", "FLY", "NPY", "RUF"]
 
 ignore = []
 
